@@ -5,10 +5,26 @@ Each design is written with an interview-ready structure: requirements → archi
 
 > Target audience: backend engineers (mid-level) preparing for system design interviews or building architecture muscle memory.
 
-![Stars](https://img.shields.io/github/stars/<USER>/system-design-notes?style=flat)
-![License](https://img.shields.io/github/license/<USER>/system-design-notes?style=flat)
+![Stars](https://img.shields.io/github/stars/marcos-astudillo/system-design-notes?style=flat)
+![License](https://img.shields.io/github/license/marcos-astudillo/system-design-notes?style=flat)
+![Last Commit](https://img.shields.io/github/last-commit/marcos-astudillo/system-design-notes)
+![Repo Size](https://img.shields.io/github/repo-size/marcos-astudillo/system-design-notes)
 ![Architecture](https://img.shields.io/badge/architecture-distributed%20systems-blue?style=flat)
 ![System Design](https://img.shields.io/badge/system%20design-interview%20ready-brightgreen?style=flat)
+
+---
+
+## Goals
+
+This repository is part of a personal learning project focused on improving system design and backend architecture skills.
+
+The goals of this project are:
+
+- Practice designing real-world distributed systems
+- Document architecture decisions clearly
+- Understand scalability trade-offs
+- Implement selected systems as working services
+- Build a public portfolio of backend engineering work
 
 ---
 
@@ -134,6 +150,25 @@ This format is close to how experienced engineers communicate designs: **constra
 - [Recommendation System](designs/recommendation-system.md)
 - [Analytics Pipeline](designs/analytics-pipeline.md)
 - [Distributed Job Queue](designs/job-queue.md)
+
+---
+
+## Implementations
+
+The following system designs also have practical implementations demonstrating how these architectures can be built in real systems.
+
+| System | Design | Implementation |
+|------|------|------|
+| URL Shortener | [Design](designs/url-shortener.md) | Coming soon |
+| Rate Limiter | [Design](designs/rate-limiter.md) | Coming soon |
+| Chat System | [Design](designs/chat-system.md) | Coming soon |
+| API Gateway | [Design](designs/api-gateway.md) | Coming soon |
+| Search Autocomplete | [Design](designs/search-autocomplete.md) | Coming soon |
+| Notification System | [Design](designs/notification-system.md) | Coming soon |
+| File Storage System | [Design](designs/file-storage.md) | Coming soon |
+| Recommendation System | [Design](designs/recommendation-system.md) | Coming soon |
+| Analytics Pipeline | [Design](designs/analytics-pipeline.md) | Coming soon |
+| Distributed Job Queue | [Design](designs/job-queue.md) | Coming soon |
 
 ---
 
