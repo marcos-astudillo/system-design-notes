@@ -1,17 +1,21 @@
 # system-design-notes
 
-A curated set of system design documents and reusable templates focused on **backend engineering** and **system architecture**.  
-Each design is written with an interview-ready structure: requirements → architecture → APIs → data model → scaling → trade-offs.
+A curated collection of **system design documents, architecture patterns, and backend engineering exercises**.
+
+Each design follows an interview-ready structure:
+
+requirements → architecture → APIs → data model → scaling → trade-offs.
 
 > Target audience: backend engineers (mid-level) preparing for system design interviews or building architecture muscle memory.
 
 ![Stars](https://img.shields.io/github/stars/marcos-astudillo/system-design-notes?style=flat)
 ![License](https://img.shields.io/github/license/marcos-astudillo/system-design-notes?style=flat)
-![Last Commit](https://img.shields.io/github/last-commit/marcos-astudillo/system-design-notes)
-![Repo Size](https://img.shields.io/github/repo-size/marcos-astudillo/system-design-notes)
+![Last Commit](https://img.shields.io/github/last-commit/marcos-astudillo/system-design-notes?style=flat)
+![Repo Size](https://img.shields.io/github/repo-size/marcos-astudillo/system-design-notes?style=flat)
 ![Architecture](https://img.shields.io/badge/architecture-distributed%20systems-blue?style=flat)
 ![System Design](https://img.shields.io/badge/system%20design-interview%20ready-brightgreen?style=flat)
 
+> Note: ⭐ If you find this repository useful for system design learning, feel free to star it.
 ---
 
 ## Goals
