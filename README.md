@@ -176,4 +176,12 @@ The following system designs also have practical implementations demonstrating h
 
 MIT — see [`LICENSE`](LICENSE).
 
-> Note: Replace `<USER>` in the badges with your GitHub username.
+---
+
+## 📫 Connect With Me
+
+[![🌍 Portfolio](https://img.shields.io/badge/Website-marcosastudillo.com-blueviolet?style=for-the-badge&logo=google-chrome)](https://www.marcosastudillo.com)
+[![💼 LinkedIn](https://img.shields.io/badge/LinkedIn-Marcos%20Astudillo-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/marcos-astudillo-c/)
+[![🐱 GitHub](https://img.shields.io/badge/GitHub-Marcos%20Astudillo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcos-astudillo)
+
+**Email:** m.astudillo1986@gmail.com
