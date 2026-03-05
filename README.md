@@ -8,14 +8,21 @@ requirements → architecture → APIs → data model → scaling → trade-offs
 
 > Target audience: backend engineers (mid-level) preparing for system design interviews or building architecture muscle memory.
 
-![Stars](https://img.shields.io/github/stars/marcos-astudillo/system-design-notes?style=flat)
-![License](https://img.shields.io/github/license/marcos-astudillo/system-design-notes?style=flat)
-![Last Commit](https://img.shields.io/github/last-commit/marcos-astudillo/system-design-notes?style=flat)
-![Repo Size](https://img.shields.io/github/repo-size/marcos-astudillo/system-design-notes?style=flat)
-![Architecture](https://img.shields.io/badge/architecture-distributed%20systems-blue?style=flat)
-![System Design](https://img.shields.io/badge/system%20design-interview%20ready-brightgreen?style=flat)
+<p align="center">
 
-> Note: ⭐ If you find this repository useful for system design learning, feel free to star it.
+  <img src="https://img.shields.io/github/stars/marcos-astudillo/system-design-notes?style=flat" />
+  <img src="https://img.shields.io/github/license/marcos-astudillo/system-design-notes?style=flat" />
+  <img src="https://img.shields.io/github/last-commit/marcos-astudillo/system-design-notes?style=flat" />
+  <img src="https://img.shields.io/github/repo-size/marcos-astudillo/system-design-notes?style=flat" />
+  <img src="https://img.shields.io/badge/architecture-distributed%20systems-blue?style=flat" />
+  <img src="https://img.shields.io/badge/system%20design-interview%20ready-brightgreen?style=flat" />
+
+</p>
+
+<p align="center">
+⭐ If you find this repository useful for learning system design, consider giving it a star.
+</p>
+
 ---
 
 ## Goals
@@ -184,8 +191,22 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## 📫 Connect With Me
 
-[![🌍 Portfolio](https://img.shields.io/badge/Website-marcosastudillo.com-blueviolet?style=for-the-badge&logo=google-chrome)](https://www.marcosastudillo.com)
-[![💼 LinkedIn](https://img.shields.io/badge/LinkedIn-Marcos%20Astudillo-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/marcos-astudillo-c/)
-[![🐱 GitHub](https://img.shields.io/badge/GitHub-Marcos%20Astudillo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcos-astudillo)
+<p align="center">
 
-**Email:** m.astudillo1986@gmail.com
+  <a href="https://www.marcosastudillo.com">
+    <img src="https://img.shields.io/badge/Website-marcosastudillo.com-blueviolet?style=for-the-badge&logo=google-chrome" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/marcos-astudillo-c/">
+    <img src="https://img.shields.io/badge/LinkedIn-Marcos%20Astudillo-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+
+  <a href="https://github.com/marcos-astudillo">
+    <img src="https://img.shields.io/badge/GitHub-Marcos%20Astudillo-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+  <a href="mailto:m.astudillo1986@gmail.com">
+    <img src="https://img.shields.io/badge/Email-m.astudillo1986%40gmail.com-red?style=for-the-badge&logo=gmail" />
+  </a>
+
+</p>
