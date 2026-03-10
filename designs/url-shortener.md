@@ -116,3 +116,20 @@ Retention: 1 year + rollups.
 - Malware/phishing detection pipeline.
 - Geo-based redirects and richer analytics.
 - Multi-region active-active with global routing.
+
+---
+
+## Implementation
+
+A working backend implementation of this architecture is available here:
+
+Flashlink Service  
+https://github.com/marcos-astudillo/flashlink-service
+
+The implementation demonstrates:
+
+• Redis cache-aside strategy  
+• asynchronous analytics processing with BullMQ  
+• PostgreSQL persistence with Prisma  
+• Dockerized services  
+• CI pipeline with GitHub Actions
