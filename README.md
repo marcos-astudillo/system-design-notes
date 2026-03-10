@@ -170,7 +170,7 @@ The following system designs also have practical implementations demonstrating h
 
 | System | Design | Implementation |
 |------|------|------|
-| URL Shortener | [Design](designs/url-shortener.md) | Coming soon |
+| URL Shortener | [Design](designs/url-shortener.md) | [Flashlink Service](https://github.com/marcos-astudillo/flashlink-service) |
 | Rate Limiter | [Design](designs/rate-limiter.md) | Coming soon |
 | Chat System | [Design](designs/chat-system.md) | Coming soon |
 | API Gateway | [Design](designs/api-gateway.md) | Coming soon |
