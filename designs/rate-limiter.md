@@ -91,3 +91,20 @@ Lua script (conceptual):
 - Sliding window log for strictness (higher cost).
 - Weighted limits (cost per request) for expensive endpoints.
 - Admin UI for dynamic policy updates and audit logs.
+
+## Implementation
+
+A working backend implementation of this architecture is available here:
+
+Redis Rate Limiter  
+https://github.com/marcos-astudillo/redis-rate-limiter
+
+The implementation demonstrates:
+
+• Token Bucket rate limiting with atomic Redis Lua scripts  
+• distributed rate limiting with Redis as the shared state store  
+• plan-based rate limit policies stored in PostgreSQL  
+• Express middleware and standalone microservice deployment modes  
+• OpenAPI / Swagger documentation for interactive API testing  
+• automated CI pipeline with GitHub Actions  
+• containerized deployment with Docker and live deployment on Railway
