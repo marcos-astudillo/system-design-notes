@@ -173,7 +173,7 @@ The following system designs also have practical implementations demonstrating h
 | URL Shortener | [Design](designs/url-shortener.md) | [Flashlink Service](https://github.com/marcos-astudillo/flashlink-service) |
 | Rate Limiter | [Design](designs/rate-limiter.md) | [Redis Rate Limiter](https://github.com/marcos-astudillo/redis-rate-limiter) |
 | Chat System | [Design](designs/chat-system.md) | Coming soon |
-| API Gateway | [Design](designs/api-gateway.md) | Coming soon |
+| API Gateway | [Design](designs/api-gateway.md) | [TS Api Gateway](https://github.com/marcos-astudillo/ts-api-gateway)  |
 | Search Autocomplete | [Design](designs/search-autocomplete.md) | Coming soon |
 | Notification System | [Design](designs/notification-system.md) | Coming soon |
 | File Storage System | [Design](designs/file-storage.md) | Coming soon |
