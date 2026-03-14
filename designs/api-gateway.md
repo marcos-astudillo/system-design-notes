@@ -89,3 +89,22 @@ Use versioned configs:
 - mTLS between gateway and services.
 - Built-in WAF rules and anomaly detection.
 - Automated route discovery from service registry.
+
+---
+
+## Implementation
+
+A working backend implementation of this architecture is available here:
+
+API Gateway Service
+https://github.com/marcos-astudillo/ts-api-gateway
+
+The implementation demonstrates:
+
+• scalable API Gateway built with Fastify and TypeScript
+• centralized routing layer for microservices
+• JWT-based authentication and request validation
+• distributed rate limiting backed by Redis
+• observability-ready middleware (logging and request IDs)
+• containerized deployment using Docker and Docker Compose
+• automated CI pipeline using GitHub Actions
