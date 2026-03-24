@@ -178,7 +178,7 @@ The following system designs also have practical implementations demonstrating h
 | Notification System | [Design](designs/notification-system.md) | Coming soon |
 | File Storage System | [Design](designs/file-storage.md) | Coming soon |
 | Recommendation System | [Design](designs/recommendation-system.md) | Coming soon |
-| Analytics Pipeline | [Design](designs/analytics-pipeline.md) | Coming soon |
+| Analytics Pipeline | [Design](designs/analytics-pipeline.md) | [Analytics Pipeline](https://github.com/marcos-astudillo/analytics-pipeline) |
 | Distributed Job Queue | [Design](designs/job-queue.md) | Coming soon |
 
 ---
