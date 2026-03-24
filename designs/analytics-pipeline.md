@@ -86,3 +86,24 @@ Realtime store (optional):
 - PII tokenization and deletion workflows.
 - Automated anomaly detection for key metrics.
 - Self-serve query layer with caching.
+
+---
+
+## Implementation
+
+A working backend implementation of this architecture is available here:
+
+Analytics Pipeline Service
+https://github.com/marcos-astudillo/analytics-pipeline
+
+The implementation demonstrates:
+
+• Scalable analytics backend built with Node.js, Express, and TypeScript
+• Event ingestion and validation via /v1/events API
+• Daily metrics aggregation via /v1/metrics API
+• Redis-based event queue with asynchronous worker processing
+• Raw event storage and aggregated metrics in PostgreSQL using Prisma
+• Observability-ready middleware (logging, request IDs, and health checks)
+• Dockerized deployment for API, worker, Redis, and PostgreSQL
+• Automated CI/CD pipeline using GitHub Actions
+• OpenAPI / Swagger documentation for all endpoints
