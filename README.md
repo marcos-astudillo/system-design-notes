@@ -177,9 +177,9 @@ The following system designs also have practical implementations demonstrating h
 | Search Autocomplete | [Design](designs/search-autocomplete.md) | Coming soon |
 | Notification System | [Design](designs/notification-system.md) | Coming soon |
 | File Storage System | [Design](designs/file-storage.md) | Coming soon |
-| Recommendation System | [Design](designs/recommendation-system.md) | Coming soon |
+| Recommendation System | [Design](designs/recommendation-system.md) | [Recoflow](https://github.com/marcos-astudillo/recoflow). |
 | Analytics Pipeline | [Design](designs/analytics-pipeline.md) | [Analytics Pipeline](https://github.com/marcos-astudillo/analytics-pipeline) |
-| Distributed Job Queue | [Design](designs/job-queue.md) | Coming soon |
+| Distributed Job Queue | [Design](designs/job-queue.md) | [Distributed Job Queue](https://github.com/marcos-astudillo/distributed-job-queue) |
 
 ---
 
