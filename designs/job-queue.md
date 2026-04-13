@@ -112,3 +112,23 @@ Queue structure:
 - Workflow engine for DAG jobs.
 - Cron scheduling support.
 - Stronger observability and replay tooling.
+
+
+Implementation
+
+A working backend implementation of this architecture is available in this repository:
+
+https://github.com/marcos-astudillo/distributed-job-queue
+
+Key implementation details:
+
+• Job ingestion pipeline via REST API (Fastify) with validation and scheduling support   
+• Redis-based distributed queue supporting delayed jobs, leasing, and retries   
+• PostgreSQL persistence layer for job metadata, state tracking, and auditability   
+• Worker-based asynchronous processing with lease + acknowledgment model   
+• Retry mechanism with exponential backoff for transient failures   
+• Dead-letter queue (DLQ) for poison or permanently failing jobs   
+• Stateless API and worker separation for horizontal scalability   
+• Dockerized architecture for consistent local and production environments   
+• CI/CD pipeline using GitHub Actions for automated testing and builds   
+• Fully documented API using OpenAPI / Swagger UI   
