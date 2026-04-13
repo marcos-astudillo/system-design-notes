@@ -97,10 +97,10 @@ https://github.com/marcos-astudillo/recoflow
 Key implementation details:
 
 • Event ingestion pipeline using Kafka for streaming user interactions (clicks, views, purchases)  
-• Real-time feature store using Redis (counters, caching layer with TTL)
+• Real-time feature store using Redis (counters, caching layer with TTL)  
 • Persistent event storage and model metadata tracking in PostgreSQL  
 • Two-stage recommendation pipeline: candidate generation + ML-based ranking  
 • Fallback strategy to popularity-based recommendations during service degradation  
 • Stateless Node.js services designed for horizontal scalability  
-• Fully documented API using OpenAPI / Swagger
+• Fully documented API using OpenAPI / Swagger  
 • Dockerized architecture with CI/CD via GitHub Actions
