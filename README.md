@@ -174,7 +174,7 @@ The following system designs also have practical implementations demonstrating h
 | Rate Limiter | [Design](designs/rate-limiter.md) | [Redis Rate Limiter](https://github.com/marcos-astudillo/redis-rate-limiter) |
 | Chat System | [Design](designs/chat-system.md) | Coming soon |
 | API Gateway | [Design](designs/api-gateway.md) | [TS Api Gateway](https://github.com/marcos-astudillo/ts-api-gateway)  |
-| Search Autocomplete | [Design](designs/search-autocomplete.md) | Coming soon |
+| Search Autocomplete | [Design](designs/search-autocomplete.md) | [Autocomplete Service](https://github.com/marcos-astudillo/autocomplete-service)|
 | Notification System | [Design](designs/notification-system.md) | Coming soon |
 | File Storage System | [Design](designs/file-storage.md) | Coming soon |
 | Recommendation System | [Design](designs/recommendation-system.md) | [Recoflow](https://github.com/marcos-astudillo/recoflow). |
