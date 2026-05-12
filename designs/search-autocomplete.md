@@ -94,17 +94,17 @@ https://github.com/marcos-astudillo/autocomplete-service
 
 ### Key implementation details:
 
-• **Suggest API via REST** (Express + Zod) with prefix validation, limit constraints, and locale support  
-• **Redis cache-aside strategy** with TTL + jitter to prevent cache stampede on hot prefixes  
-• **PostgreSQL popularity store** with atomic UPSERT for daily query count aggregation  
-• **In-memory Trie index** with O(k) prefix lookup and atomic rebuild for zero-downtime updates  
-• **Exponential decay ranking**: `score = count × e^(-λ×days)` to prioritize recent + popular queries  
-• **Graceful fallback chain**: Cache → Trie → PostgreSQL ensures availability under partial failures  
-• **Adaptive rate limiting**: Stricter limits (20 req/10s) for Zipf-distributed hot prefixes (`a`, `i`, `el`)  
-• **Request coalescing middleware** to prevent thundering herd on ultra-hot prefix bursts  
-• **Stateless service layer** with clean separation: controllers → services → repositories → utils  
-• **Dockerized development** via Docker Compose (app + postgres:16 + redis:7) for reproducible environments  
-• **CI/CD pipeline** using GitHub Actions for typecheck, lint, unit tests, and coverage reporting  
-• **Prometheus-style `/metrics` endpoint** for observability: hit rate, index stats, error counts  
-• **Graceful shutdown** with `dumb-init` + signal handling for clean DB/Redis connection teardown  
+- **Suggest API via REST** (Express + Zod) with prefix validation, limit constraints, and locale support  
+- **Redis cache-aside strategy** with TTL + jitter to prevent cache stampede on hot prefixes  
+- **PostgreSQL popularity store** with atomic UPSERT for daily query count aggregation  
+- **In-memory Trie index** with O(k) prefix lookup and atomic rebuild for zero-downtime updates  
+- **Exponential decay ranking**: `score = count × e^(-λ×days)` to prioritize recent + popular queries  
+- **Graceful fallback chain**: Cache → Trie → PostgreSQL ensures availability under partial failures  
+- **Adaptive rate limiting**: Stricter limits (20 req/10s) for Zipf-distributed hot prefixes (`a`, `i`, `el`)  
+- **Request coalescing middleware** to prevent thundering herd on ultra-hot prefix bursts  
+- **Stateless service layer** with clean separation: controllers → services → repositories → utils  
+- **Dockerized development** via Docker Compose (app + postgres:16 + redis:7) for reproducible environments  
+- **CI/CD pipeline** using GitHub Actions for typecheck, lint, unit tests, and coverage reporting  
+- **Prometheus-style `/metrics` endpoint** for observability: hit rate, index stats, error counts  
+- **Graceful shutdown** with `dumb-init` + signal handling for clean DB/Redis connection teardown  
 • **Fully documented API** in README with request/response examples, error codes, and caching behavior
